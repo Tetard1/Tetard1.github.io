@@ -11,7 +11,7 @@ if (!in_array($page, $valid_pages)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio - Épreuve de fin d'année</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio/styles.css">
 </head>
 <body>
     <header>
@@ -32,13 +32,13 @@ if (!in_array($page, $valid_pages)) {
             <?php
             switch($page) {
                 case 'moi':
-                    include 'pages/moi.php';
+                    include 'portfolio/pages/moi.php';
                     break;
                 case 'ecole':
-                    include 'pages/ecole.php';
+                    include 'portfolio/pages/ecole.php';
                     break;
                 case 'entreprise':
-                    include 'pages/entreprise.php';
+                    include 'portfolio/pages/entreprise.php';
                     break;
             }
             ?>
